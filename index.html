@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>超凡名品</title>
+	<link rel="stylesheet" type="text/css" href="./normalize.css">
+	<link rel="stylesheet" type="text/css" href="./超凡名品.css">
+</head>
+<body>
+	<div>
+		<img src="images/returntop.png" id="returntop"  onclick="returnTop()">
+	</div>
+	<div>
+		<a href=""><img src="images/Secondstokill.jpg" id="Secondstokill"></a>
+	</div>
+	<div class="navigation-top">
+		<div class="navigation-top-container1 clear">
+			<img src="images/logo.png" class="logo">
+			<form class="clear">
+				<input type="text" placeholder="短袖" class="search">
+				<input type="button" value="搜索" class="submit" id="search">
+			</form>
+			<ul class="sign clear">
+				<li><a href="">登入</a></li>
+				<li><a href="">注册</a></li>
+				<li><a href=""><img src="images/shopcar.png"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="navigation-top2">
+		<div class="navigation-top2-container clear">
+			<ul class="class">
+				<li><a href="">夏季新品</a></li>
+				<li><a href="">女士</a></li>
+				<li><a href="">男士</a></li>
+				<li><a href="">儿童</a></li>
+				<li><a href="">促销产品</a></li>
+			</ul>
+			<div id="banner-div">
+				<img src="images/banner-1.jpg" id="banner-1">
+				<img src="images/banner-2.jpg" id="banner-2">
+				<img src="images/banner-3.jpg" id="banner-3">
+				<img src="images/banner-4.jpg" id="banner-4">
+			</div>
+			<ul id="help">
+				<li><a href="">&nbsp;&nbsp;帮助中心</a></li>
+				<li><a href="">+购物服务</a></li>
+				<li><a href="">+关于我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="banner-container">
+			<p>超凡名品</p>
+			<img src="images/banner2.png">
+		</div>
+	</div>
+	<div class="navigation-middle">
+		<div class=navigation-middle-container clear">
+			<ul class="clear">
+				<li><p>超U惠专区</p><a href="" id="first">SPECIAL</a></li>
+				<li><p>限时推优</p><a href="">WOMEN</a><a href="">MEN</a><a href="">KIDS</a><a href="">BABY</a></li>
+				<li><p>新作商品</p><a href="">WOMEN</a><a href="">MEN</a><a href="">KIDS</a><a href="">BABY</a></li>
+				<li><p id="last">特大/特小尺码</p><a href="">WOMEN</a><a href="">MEN</a><a href="">KIDS</a><a href="">BABY</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="centent">
+		<form class="outdiv">
+			<p id="usersign">
+				用户登录
+			</p>
+			<div class="inputdiv">
+				<input type="text" name="username" id="username" placeholder="邮箱/手机号码/超凡账号" class="writein" onfocus="getFocus1()" onblur="getFocus2()">
+			</div>
+			<div class="fontdiv" id="fontdiv1">
+			</div>
+			<div class="inputdiv" id=>
+				<input type="password" name="pass" id="password" placeholder="密码" class="writein" onfocus="getFocus3()" onblur="getFocus4()">
+			</div>
+			<div class="fontdiv" id="fontdiv2">
+			</div>
+
+			<div id="button1" >
+				<input type="button" name="logon" value="立即登录" id="submit"  onclick=' displayresult();style="border:2px blue solid;"' >
+			</div>
+		</form>
+		<div id="lastdiv" class="outdiv">
+		</div>
+	</div>
+	<div class="tips">
+		<div class="tips-container">
+			<ul class="clear">
+					<li>
+						<a href="">
+							其他方式登陆
+						</a>
+					</li>
+					<li>
+						<a href="">
+							账号注册
+						</a>
+					</li>
+					<li>
+						<a href="">
+							忘记密码
+						</a>
+					</li>
+			</ul>
+		</div>
+		<br/>
+	</div>
+	<div class="parag">
+		<p class="parag1">本周推荐</p>
+	</div>
+	<div class="week-show">
+		<div class="week-show-container">
+			<a href=""><img src="images/week-show1.jpg"></a>
+			<a href=""><img src="images/week-show2.jpg"></a>
+		</div>
+	</div>
+	<div class="week-top">
+		<div class="week-top1 clear">
+			<p class="week-top-text">热销榜单</p>
+			<div class="week-top-navigation clear">
+				<ul>
+					<li id="week-men"><a href="">MEN</a></li>
+					<li><a href="">WOMEN</a></li>
+					<li><a href="">KIDS</a></li>
+					<li><a href="">BABY</a></li>
+				</ul>
+			</div>
+			<div class="week-pictures">
+				<div class="week-picture">
+					<a href="">
+					<img src="images/week1.jpg">
+					</a>
+					<p>男子经典商务短袖</p>
+					<span>¥49</span>
+				</div>
+				<div class="week-picture">
+					<a href="">
+					<img src="images/week2.jpg">
+					</a>
+					<p>男子潮流时尚短袖T</p>
+					<span>¥69</span>
+				</div>
+				<div class="week-picture">
+					<a href="">
+					<img src="images/week3.jpg">
+					</a>
+					<p>男子时尚休闲短袖T</p>
+					<span>¥89</span>
+				</div>
+				<div class="week-picture">
+					<a href="">
+					<img src="images/week4.jpg">
+					</a>
+					<p>男子经典商务短袖T</p>
+					<span>¥79</span>
+				</div>
+				<div class="week-picture">
+					<a href=""> 
+					<img src="images/week5.jpg">
+					</a>
+					<p>男子场下网球短袖POLO</p>
+					<span>¥99</span>	
+				</div>
+				<div class="week-picture">
+					<a href="">
+					<img src="images/week6.jpg">
+					</a>
+					<p>男子经典商务短袖POLO</p>
+					<span>¥59</span>
+				</div>
+				<div class="week-picture">
+					<a href="">
+					<img src="images/week7.jpg">
+					</a>
+					<p>男子潮流时尚短袖T</p>
+					<span>¥109</span>
+				</div>
+				<div class="week-picture">
+					<a href="">
+					<img src="images/week8.jpg">
+					</a>
+					<p>男子场上健身短袖T</p>
+					<span>¥119</span>
+				</div>
+				<div class="week-picture">
+					<a href="">
+					<img src="images/week9.jpg">
+					</a>
+					<p>男子经典商务短袖</p>
+					<span>¥119</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hot-classify">
+		<div class="hot-classify-container">
+			<p>
+				热门商品分类
+			</p>
+			<ul>
+					<li id="hot-men"><a href="">MEN</a></li>
+					<li><a href="">WOMEN</a></li>
+					<li><a href="">KIDS</a></li>
+					<li><a href="">BABY</a></li>
+			</ul>
+			<a href=""> 
+				<img src="images/hot1.png">
+			</a>
+			<a href=""> 
+				<img src="images/hot2.png">
+			</a>
+			<a href=""> 
+				<img src="images/hot3.png">
+			</a>
+			<a href=""> 
+				<img src="images/hot4.png">
+			</a>
+			<a href=""> 
+				<img src="images/hot5.png">
+			</a>
+			<a href=""> 
+				<img src="images/hot6.png">
+			</a>
+			<a href=""> 
+				<img src="images/hot7.png">
+			</a>
+			<a href=""> 
+				<img src="images/hot8.png">
+			</a>
+		</div>
+	</div>
+	<div class="bottom-navigation">
+		<div class="bottom-navigation-container clear">
+			<img src="images/logo1.png">
+			<ul class="clear">
+				<li>
+					<a href="">
+					关于超凡
+					</a>
+				</li>
+				<li>
+					<a href="">
+					特色服务
+					</a>
+				</li>
+				<li>
+					<a href="">
+					顾客印象
+					</a>
+				</li>
+				<li>
+					<a href="">
+					买家秀
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="bottom clear">
+			<span>超凡名品鞋服处理有限公司&nbsp;&nbsp;&nbsp;&nbsp;沪ICP备09003223号&nbsp;&nbsp;&nbsp;&nbsp;沪公网安备31010402000957号 </span>
+			<ul class="clear">
+				<li>
+					<a href="">营业执照</a>	
+				</li>
+				<li>
+					<a href="">开户许可证</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<script type="text/javascript">
+		function getFocus1(){
+			document.getElementById('fontdiv1').innerHTML='<p id="paragraph1" style="color:rgba(128,138,135)">支持中文数字</p>';
+		}
+		function getFocus2(){
+			var str=document.getElementById('username').value;
+			if(str==""){
+					document.getElementById('fontdiv1').innerHTML='<p id="paragraph2" style="color:rgba(128,138,135)">用户名不能为空</p>';
+			}
+			else{
+					document.getElementById('fontdiv1').innerHTML='<p id="paragraph2"></p>';
+			}
+		}
+		function getFocus3(){
+			document.getElementById('fontdiv2').innerHTML='<p id="paragraph3" style="color:rgba(128,138,135)">建议使用两种字符组合</p>';
+		}
+		function getFocus4(){
+			var str=document.getElementById('password').value;
+			if(str==""){
+				document.getElementById('fontdiv2').innerHTML='<p id="paragraph4" style="color:rgba(128,138,135)">密码不能为空</p>';
+			}
+			else{
+				document.getElementById('fontdiv2').innerHTML='<p id="paragraph4""></p>';
+			}
+			
+		}
+		function displayresult(){
+			var str1=document.getElementById('username').value;
+			var str2=document.getElementById('password').value;
+			if(str1!=""&&str2!=""){
+				document.getElementById('lastdiv').innerHTML='<span>登录成功</span>';
+			}
+		}
+		var img=document.getElementById("Secondstokill");
+		var distance1=0;
+		var distance2=0,num=0;
+		function floatImg(){
+			setInterval(function(){
+				if(num>=0&&num<=600){
+					distance1+=10;
+					distance2+=10;
+				}
+				if(num>600&&num<1200){
+					distance1+=10;
+					distance2-=10;
+				}
+				if(num>1200&&num<1400){
+					distance1+=10;
+					distance2+=10;
+				}
+				if(num>1400&&num<1830){
+					distance1-=10;
+					distance2+=10;
+				}
+				if(num>1830&&num<=2800){
+					distance1-=10;
+					distance2-=6.5;
+				}
+				if(num==2800){
+				 	num=0;
+				 	distance1=0;
+				 	distance2=0;
+				}
+				num+=10;
+				img.style.left=distance1+"px";
+				img.style.top=distance2+"px";
+			},50)
+			
+		}
+		floatImg();
+
+		var ban1=document.getElementById("banner-1");
+		var ban2=document.getElementById("banner-2");
+		var ban3=document.getElementById("banner-3");
+		var ban4=document.getElementById("banner-4");
+		var l1=0,l2=1050,l3=2100,l4=3150;
+		var rollStop=1;
+		function stop(){
+			if(l1==0||l2==0||l3==0||l4==0){
+				var x=clearInterval(rollStop);
+				setTimeout(function(){
+					rollStop=setInterval(stop, 30);
+				}, 2000);
+			}
+			ban1.style.left=l1+"px";
+			ban2.style.left=l2+"px";
+			ban3.style.left=l3+"px";
+			ban4.style.left=l4+"px";
+			l1-=10;
+			l2-=10;
+			l3-=10;
+			l4-=10;
+			if(l1>-1050&&l1<1050){
+				ban1.style.display="block";
+			}else{
+				ban1.style.display="none";
+			}
+			if(l2>-1050&&l2<1050){
+				ban2.style.display="block";
+			}else{
+				ban2.style.display="none";
+			}
+			if(l3>-1050&&l3<1050){
+				ban3.style.display="block";
+			}else{
+				ban3.style.display="none";
+			}
+			if(l4>-1050&&l4<1050){
+				ban4.style.display="block";
+			}else{
+				ban4.style.display="none";
+			}
+			if(l1==-1050){
+				l1=3150;
+			}
+			if(l2==-1050){
+				l2=3150;
+			}
+			if(l3==-1050){
+				l3=3150;
+			}
+			if(l4==-1050){
+				l4=3150;
+			}
+		}
+		rollStop=setInterval(stop, 30);
+		function returnTop(){
+			document.body.scrollTop = 0;
+    		document.documentElement.scrollTop = 0;
+		}
+		window.onscroll = function() {
+			if (document.body.scrollTop > 20||document.documentElement.scrollTop>20){
+			document.getElementById("returntop").style.display="block";
+			}
+			else{
+				document.getElementById("returntop").style.display="none";
+			}
+		};
+		
+</script>	
+</body>
+</html>
